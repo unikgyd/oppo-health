@@ -1,0 +1,47 @@
+# Local reverse-engineering inputs and evidence
+/artifacts/
+/decompiled-app/
+/decompiled-system/
+/evidence/
+/tools-state/
+/DecodeManifest.java
+/ExportClasses.java
+/InspectApk.java
+/步数获取行为研究.txt
+
+# Build outputs and local IDE/runtime state
+**/build/
+**/dist/
+**/.gradle/
+**/.idea/
+**/local.properties
+*.iml
+*.class
+*.dex
+*.apk
+*.apks
+*.xapk
+*.aab
+*.idsig
+*.zip
+*.log
+build-log*.txt
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Downloaded compile-only dependency; prepare it with the supplied script
+**/app/libs/*.jar
+
+# Local signing and account configuration
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
